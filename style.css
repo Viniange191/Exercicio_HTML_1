@@ -1,0 +1,66 @@
+
+fieldset{ 
+ background-color:rgba(179, 235, 179, 0.692);
+ border:1px solid blue;
+ padding:1em;
+ margin: 1em;
+ margin-left:2em;
+ margin-top:0.3em;
+ width:auto;
+}
+
+legend{
+color:orange;
+font-weight: bold;
+}
+
+legend:hover{
+color:orangered;
+}
+
+body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+textarea{
+    resize:none;
+    width:20em;
+    height: 10em;
+}
+
+label{
+    height:1em ;
+    width:2em ;
+    color: gray;
+    /* margin: top 0.1em; */
+    display: block;
+    padding:3px;
+    margin-top: 0.1em;
+}
+
+label:hover{
+color:black;
+}
+
+input[type="text"]{
+width:20em;
+margin-top:2px;
+}
+
+#botao{
+    background-color:white;
+    color:black;
+    height:3em;
+    margin-left:2em;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+#botao:hover{
+background-color:rgb(226, 223, 223);
+color:black
+}
+    
+
+#lol{color:grey;
+    width:400px;}
+
+#lol:hover{color:black}
